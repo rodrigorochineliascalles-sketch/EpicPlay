@@ -6,8 +6,53 @@
 	<dict>
 		<key>EpicPlay.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>EpicPlayWatch Watch App.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5B07E5402E25495800B78F8B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5B07E54E2E25496400B78F8B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5B07E5582E25496400B78F8B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5B766EBC2F1365B6000E965F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5B766EC82F1365BD000E965F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5B766ED22F1365BD000E965F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5B766EF22F13ED3E000E965F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

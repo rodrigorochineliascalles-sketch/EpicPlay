@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5B74E7672F15AC380023F3FF /* EpicPlayWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5B74E7472F15AC2D0023F3FF /* EpicPlayWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5B07E5502E25496400B78F8B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,12 +25,50 @@
 			remoteGlobalIDString = 5B07E5402E25495800B78F8B;
 			remoteInfo = EpicPlay;
 		};
+		5B74E7542F15AC380023F3FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B07E5392E25495800B78F8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B74E7462F15AC2D0023F3FF;
+			remoteInfo = "EpicPlayWatch Watch App";
+		};
+		5B74E75E2F15AC380023F3FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B07E5392E25495800B78F8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B74E7462F15AC2D0023F3FF;
+			remoteInfo = "EpicPlayWatch Watch App";
+		};
+		5B74E7652F15AC380023F3FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B07E5392E25495800B78F8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B74E7462F15AC2D0023F3FF;
+			remoteInfo = "EpicPlayWatch Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B766EDE2F1365BE000E965F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5B74E7672F15AC380023F3FF /* EpicPlayWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5B07E5412E25495800B78F8B /* EpicPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpicPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B07E54F2E25496400B78F8B /* EpicPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpicPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B07E5592E25496400B78F8B /* EpicPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpicPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B74E7472F15AC2D0023F3FF /* EpicPlayWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EpicPlayWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B74E7532F15AC380023F3FF /* EpicPlayWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EpicPlayWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B74E75D2F15AC380023F3FF /* EpicPlayWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EpicPlayWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -58,6 +100,21 @@
 			path = EpicPlayUITests;
 			sourceTree = "<group>";
 		};
+		5B74E7482F15AC2D0023F3FF /* EpicPlayWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "EpicPlayWatch Watch App";
+			sourceTree = "<group>";
+		};
+		5B74E7562F15AC380023F3FF /* EpicPlayWatch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "EpicPlayWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		5B74E7602F15AC380023F3FF /* EpicPlayWatch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "EpicPlayWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +139,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5B74E7442F15AC2D0023F3FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B74E7502F15AC380023F3FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B74E75A2F15AC380023F3FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -91,6 +169,9 @@
 				5B07E5432E25495800B78F8B /* EpicPlay */,
 				5B07E5522E25496400B78F8B /* EpicPlayTests */,
 				5B07E55C2E25496400B78F8B /* EpicPlayUITests */,
+				5B74E7482F15AC2D0023F3FF /* EpicPlayWatch Watch App */,
+				5B74E7562F15AC380023F3FF /* EpicPlayWatch Watch AppTests */,
+				5B74E7602F15AC380023F3FF /* EpicPlayWatch Watch AppUITests */,
 				5B07E5422E25495800B78F8B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,6 +182,9 @@
 				5B07E5412E25495800B78F8B /* EpicPlay.app */,
 				5B07E54F2E25496400B78F8B /* EpicPlayTests.xctest */,
 				5B07E5592E25496400B78F8B /* EpicPlayUITests.xctest */,
+				5B74E7472F15AC2D0023F3FF /* EpicPlayWatch Watch App.app */,
+				5B74E7532F15AC380023F3FF /* EpicPlayWatch Watch AppTests.xctest */,
+				5B74E75D2F15AC380023F3FF /* EpicPlayWatch Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,10 +199,12 @@
 				5B07E53D2E25495800B78F8B /* Sources */,
 				5B07E53E2E25495800B78F8B /* Frameworks */,
 				5B07E53F2E25495800B78F8B /* Resources */,
+				5B766EDE2F1365BE000E965F /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5B74E7662F15AC380023F3FF /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				5B07E5432E25495800B78F8B /* EpicPlay */,
@@ -176,6 +262,74 @@
 			productReference = 5B07E5592E25496400B78F8B /* EpicPlayUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		5B74E7462F15AC2D0023F3FF /* EpicPlayWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B74E76E2F15AC380023F3FF /* Build configuration list for PBXNativeTarget "EpicPlayWatch Watch App" */;
+			buildPhases = (
+				5B74E7432F15AC2D0023F3FF /* Sources */,
+				5B74E7442F15AC2D0023F3FF /* Frameworks */,
+				5B74E7452F15AC2D0023F3FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5B74E7482F15AC2D0023F3FF /* EpicPlayWatch Watch App */,
+			);
+			name = "EpicPlayWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "EpicPlayWatch Watch App";
+			productReference = 5B74E7472F15AC2D0023F3FF /* EpicPlayWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B74E7522F15AC380023F3FF /* EpicPlayWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B74E76F2F15AC380023F3FF /* Build configuration list for PBXNativeTarget "EpicPlayWatch Watch AppTests" */;
+			buildPhases = (
+				5B74E74F2F15AC380023F3FF /* Sources */,
+				5B74E7502F15AC380023F3FF /* Frameworks */,
+				5B74E7512F15AC380023F3FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B74E7552F15AC380023F3FF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5B74E7562F15AC380023F3FF /* EpicPlayWatch Watch AppTests */,
+			);
+			name = "EpicPlayWatch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "EpicPlayWatch Watch AppTests";
+			productReference = 5B74E7532F15AC380023F3FF /* EpicPlayWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B74E75C2F15AC380023F3FF /* EpicPlayWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B74E7702F15AC380023F3FF /* Build configuration list for PBXNativeTarget "EpicPlayWatch Watch AppUITests" */;
+			buildPhases = (
+				5B74E7592F15AC380023F3FF /* Sources */,
+				5B74E75A2F15AC380023F3FF /* Frameworks */,
+				5B74E75B2F15AC380023F3FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B74E75F2F15AC380023F3FF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5B74E7602F15AC380023F3FF /* EpicPlayWatch Watch AppUITests */,
+			);
+			name = "EpicPlayWatch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "EpicPlayWatch Watch AppUITests";
+			productReference = 5B74E75D2F15AC380023F3FF /* EpicPlayWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,6 +351,17 @@
 						CreatedOnToolsVersion = 16.4;
 						TestTargetID = 5B07E5402E25495800B78F8B;
 					};
+					5B74E7462F15AC2D0023F3FF = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					5B74E7522F15AC380023F3FF = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5B74E7462F15AC2D0023F3FF;
+					};
+					5B74E75C2F15AC380023F3FF = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5B74E7462F15AC2D0023F3FF;
+					};
 				};
 			};
 			buildConfigurationList = 5B07E53C2E25495800B78F8B /* Build configuration list for PBXProject "EpicPlay" */;
@@ -216,6 +381,9 @@
 				5B07E5402E25495800B78F8B /* EpicPlay */,
 				5B07E54E2E25496400B78F8B /* EpicPlayTests */,
 				5B07E5582E25496400B78F8B /* EpicPlayUITests */,
+				5B74E7462F15AC2D0023F3FF /* EpicPlayWatch Watch App */,
+				5B74E7522F15AC380023F3FF /* EpicPlayWatch Watch AppTests */,
+				5B74E75C2F15AC380023F3FF /* EpicPlayWatch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +404,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5B07E5572E25496400B78F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B74E7452F15AC2D0023F3FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B74E7512F15AC380023F3FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B74E75B2F15AC380023F3FF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,6 +455,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5B74E7432F15AC2D0023F3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B74E74F2F15AC380023F3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B74E7592F15AC380023F3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -278,6 +488,21 @@
 			isa = PBXTargetDependency;
 			target = 5B07E5402E25495800B78F8B /* EpicPlay */;
 			targetProxy = 5B07E55A2E25496400B78F8B /* PBXContainerItemProxy */;
+		};
+		5B74E7552F15AC380023F3FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B74E7462F15AC2D0023F3FF /* EpicPlayWatch Watch App */;
+			targetProxy = 5B74E7542F15AC380023F3FF /* PBXContainerItemProxy */;
+		};
+		5B74E75F2F15AC380023F3FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B74E7462F15AC2D0023F3FF /* EpicPlayWatch Watch App */;
+			targetProxy = 5B74E75E2F15AC380023F3FF /* PBXContainerItemProxy */;
+		};
+		5B74E7662F15AC380023F3FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B74E7462F15AC2D0023F3FF /* EpicPlayWatch Watch App */;
+			targetProxy = 5B74E7652F15AC380023F3FF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -404,12 +629,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = EpicPlay/EpicPlay.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 543NG7WDFD;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 543NG7WDFD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_FILE[sdk=*]" = /Users/rodrigo/Desktop/EpicPlay/EpicPlay/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -424,9 +653,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.domot.EpicPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = EpicPlay_Dist_Profile;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -444,12 +675,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = EpicPlay/EpicPlay.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 543NG7WDFD;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 543NG7WDFD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_FILE[sdk=*]" = /Users/rodrigo/Desktop/EpicPlay/EpicPlay/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -464,9 +699,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.domot.EpicPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = EpicPlay_Dist_Profile;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -568,6 +805,149 @@
 			};
 			name = Release;
 		};
+		5B74E7682F15AC380023F3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = EpicPlayWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.domot.EpicPlay;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.domot.EpicPlay.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		5B74E7692F15AC380023F3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = EpicPlayWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.domot.EpicPlay;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.domot.EpicPlay.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		5B74E76A2F15AC380023F3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 543NG7WDFD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epicplay.EpicPlayWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EpicPlayWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EpicPlayWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		5B74E76B2F15AC380023F3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 543NG7WDFD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epicplay.EpicPlayWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EpicPlayWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EpicPlayWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		5B74E76C2F15AC380023F3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 543NG7WDFD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epicplay.EpicPlayWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "EpicPlayWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		5B74E76D2F15AC380023F3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 543NG7WDFD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epicplay.EpicPlayWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "EpicPlayWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -603,6 +983,33 @@
 			buildConfigurations = (
 				5B07E56A2E25496400B78F8B /* Debug */,
 				5B07E56B2E25496400B78F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B74E76E2F15AC380023F3FF /* Build configuration list for PBXNativeTarget "EpicPlayWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B74E7682F15AC380023F3FF /* Debug */,
+				5B74E7692F15AC380023F3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B74E76F2F15AC380023F3FF /* Build configuration list for PBXNativeTarget "EpicPlayWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B74E76A2F15AC380023F3FF /* Debug */,
+				5B74E76B2F15AC380023F3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B74E7702F15AC380023F3FF /* Build configuration list for PBXNativeTarget "EpicPlayWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B74E76C2F15AC380023F3FF /* Debug */,
+				5B74E76D2F15AC380023F3FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

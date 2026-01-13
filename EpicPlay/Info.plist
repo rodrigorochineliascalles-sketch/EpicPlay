@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   Info.plist
-   EpicPlay
-
-   Created by Rodrigo Rochin on 14/07/25.
-   Copyright (c) 2025 ___ORGANIZATIONNAME___. All rights reserved.
--->
 <plist version="1.0">
-<dict/>
+<dict>
     <key>NSAppTransportSecurity</key>
     <dict>
         <key>NSAllowsArbitraryLoads</key>
@@ -20,6 +13,6 @@
 
     <key>NSPhotoLibraryAddUsageDescription</key>
     <string>Permite que la app guarde videos en tu galería.</string>
-
-    
+</dict>
 </plist>
+
