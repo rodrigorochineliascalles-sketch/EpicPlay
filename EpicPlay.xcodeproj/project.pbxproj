@@ -630,15 +630,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = EpicPlay/EpicPlay.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 10;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 543NG7WDFD;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_TEAM = 543NG7WDFD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_FILE[sdk=*]" = /Users/rodrigo/Desktop/EpicPlay/EpicPlay/Info.plist;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = EpicPlay/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -653,11 +651,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.10;
+				MARKETING_VERSION = 1.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.domot.EpicPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = EpicPlay_Dist_Profile;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -676,15 +673,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = EpicPlay/EpicPlay.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 10;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 543NG7WDFD;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_TEAM = 543NG7WDFD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_FILE[sdk=*]" = /Users/rodrigo/Desktop/EpicPlay/EpicPlay/Info.plist;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = EpicPlay/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -699,11 +694,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.10;
+				MARKETING_VERSION = 1.11;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.domot.EpicPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = EpicPlay_Dist_Profile;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -811,21 +806,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 543NG7WDFD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = EpicPlayWatch;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.domot.EpicPlay;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.domot.EpicPlay.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epicplay.EpicPlayWatch.watchkitapp-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -842,21 +838,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 543NG7WDFD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = EpicPlayWatch;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.domot.EpicPlay;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.domot.EpicPlay.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epicplay.EpicPlayWatch.watchkitapp-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -872,6 +869,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 543NG7WDFD;
@@ -892,6 +890,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 543NG7WDFD;
@@ -912,6 +911,7 @@
 		5B74E76C2F15AC380023F3FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 543NG7WDFD;
@@ -931,6 +931,7 @@
 		5B74E76D2F15AC380023F3FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 543NG7WDFD;

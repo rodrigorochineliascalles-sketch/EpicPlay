@@ -1,0 +1,1 @@
+////  Club.swift//  EpicPlay////  Created by user289202 on 1/13/26.//import Foundationstruct Club: Identifiable, Hashable, Decodable {    let id: String    let name: String    let courts: [String]}

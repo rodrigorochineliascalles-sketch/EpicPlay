@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "AppLogo1080x1080-2.png",
       "idiom" : "universal",
       "platform" : "watchos",
       "size" : "1024x1024"
