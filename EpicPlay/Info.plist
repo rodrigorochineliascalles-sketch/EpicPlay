@@ -1,26 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-	</dict>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Esta app necesita acceso a tu galería para mostrar y guardar videos.</string>
-	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Permite que la app guarde videos en tu galería.</string>
-	<key>CFBundleIdentifier</key>
-	<string>$(PRODUCT_BUNDLE_IDENTIFIER)
-</string>
-	<key>CFBundleShortVersionString</key>
-	<string>1.11</string>
-	<key>CFBundleVersion</key>
-	<string>11</string>
-	<key>CFBundleName</key>
-	<string>EpicPlay</string>
-	<key>CFBundleDisplayName</key>
-	<string>EpicPlay</string>
+
+    <!-- App Identity -->
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+
+    <key>CFBundleName</key>
+    <string>EpicPlay</string>
+
+    <key>CFBundleDisplayName</key>
+    <string>EpicPlay</string>
+
+    <key>CFBundleShortVersionString</key>
+    <string>1.11</string>
+
+    <key>CFBundleVersion</key>
+    <string>11</string>
+    
+    <key>CFBundleExecutable</key>
+    <string>EpicPlay</string>
+    
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    
+    <!-- ORIENTATIONS -->
+        <key>UISupportedInterfaceOrientations</key>
+        <array>
+            <string>UIInterfaceOrientationPortrait</string>
+        </array>
+
+        <key>UISupportedInterfaceOrientations~ipad</key>
+        <array>
+            <string>UIInterfaceOrientationPortrait</string>
+        </array>
+        
+        <key>UILaunchStoryboardName</key>
+        <string>LaunchScreen</string>
+        
+        <key>UIRequiresFullScreen</key>
+        <true/>
+
+    <!-- Permissions -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Esta app necesita acceso a tu galería para mostrar y guardar videos.</string>
+
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Permite que la app guarde videos en tu galería.</string>
+
+    <!-- Network -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+
 </dict>
 </plist>
